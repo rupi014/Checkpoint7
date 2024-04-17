@@ -11,8 +11,8 @@ Checkpoint 7
 JavaScript es un lenguaje de programación de alto nivel, interpretado y orientado a objetos, utilizado principalmente para crear interactividad en páginas web. Junto con HTML y CSS, forma la tríada fundamental de tecnologías web.
 
 .. image:: images/JS.png
-  :width: 500
-  :alt: Alternative text
+  :width: 400
+  :alt: Javascript logo
 
 Historia
 ===============
@@ -678,6 +678,10 @@ La palabra clave "this" en JavaScript es una referencia especial que se refiere 
      .. code-block:: javascript
 
         console.log(this); // Muestra el objeto global (window en un navegador)
+
+.. image:: images/this.png
+  :width: 400
+  :alt: this example
 
    - **Ejemplo 2: Dentro de un método de objeto:**
 
