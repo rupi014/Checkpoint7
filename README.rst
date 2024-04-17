@@ -210,7 +210,9 @@ En JavaScript, puedes identificar el tipo de dato de una variable utilizando ope
      .. code-block:: javascript
 
         let y = null;
-        console.log(typeof y); // "object" (¡Cuidado! typeof null devuelve "object" por razones históricas. Null es su propio tipo, no un objeto.)
+        console.log(typeof y); // "object" 
+
+    (¡Cuidado! typeof null devuelve "object" por razones históricas. Null es su propio tipo, no un objeto.)
 
    - **Objeto:**
 
