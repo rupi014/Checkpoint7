@@ -86,6 +86,8 @@ Fuentes
 - https://www.um.es/docencia/barzana/DAWEB/Lenguaje-de-programacion-JavaScript-1.pdf
 
 
+ 
+
 *********************************************
 ¿Cuáles son algunos tipos de datos JS?
 *********************************************
@@ -94,6 +96,10 @@ JavaScript es un lenguaje de programación dinámicamente tipado, lo que signifi
 
 Tipos de datos primitivos
 ================================
+
+.. image:: images/tipos.jpg
+  :width: 600
+  :alt: tipos datos JS
 
 - **Número (Number):** Representa valores numéricos enteros o de punto flotante. Ejemplos:
 
