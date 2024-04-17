@@ -77,6 +77,14 @@ JavaScript es un lenguaje de programación ampliamente utilizado que tiene varia
 
 En resumen, JavaScript es único debido a su capacidad de ejecución en el navegador, su tipado dinámico, su flexibilidad en el manejo de funciones y su modelo de objetos basado en prototipos. Estas características hacen que JavaScript sea un lenguaje poderoso y versátil para el desarrollo web y más allá.
 
+Fuentes
+===============
+
+- Guías de DevCamp.
+- https://www.c-sharpcorner.com/article/how-javascript-is-different-from-other-programming-languages/
+- https://www.aeioros.com/javascript-frente-otros-lenguajes-de-programacion-populares
+- https://www.um.es/docencia/barzana/DAWEB/Lenguaje-de-programacion-JavaScript-1.pdf
+
 
 *********************************************
 ¿Cuáles son algunos tipos de datos JS?
@@ -213,6 +221,14 @@ Conclusión
 
 JavaScript es un lenguaje de programación versátil que admite una variedad de tipos de datos para representar diferentes tipos de valores. Comprender los tipos de datos en JavaScript es fundamental para escribir código eficiente y robusto.
 
+Fuentes
+===============
+
+- Guías de DevCamp.
+- https://developer.mozilla.org/es/docs/Web/JavaScript/Data_structures
+- https://lenguajejs.com/javascript/introduccion/tipos-de-datos/
+- https://www.freecodecamp.org/espanol/news/tipos-de-datos-en-javascript/
+
 
 **************************************************
 ¿Cuáles son las tres funciones de String en JS?
@@ -306,6 +322,14 @@ Conclusión
 ===========
 
 Las funciones de String en JavaScript ofrecen una amplia gama de herramientas para manipular y trabajar con texto de manera efectiva. Al comprender y utilizar estas funciones, puedes realizar tareas como manipulación de texto, búsqueda de subcadenas, reemplazo de texto y mucho más de manera sencilla y eficiente.
+
+Fuentes
+===============
+
+- Guías de DevCamp.
+- https://desarrolloweb.com/articulos/objetos-string-javascript.html
+- https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/Useful_string_methods
+- https://www.aprenderaprogramar.com/index.php?option=com_content&view=article&id=822:funciones-javascript-cadenas-texto-tolowercase-charat-substring-split-replace-replaceall-indexof-cu01142e&catid=78&Itemid=206
 
 **************************************************
 ¿Qué es un condicional?
@@ -465,6 +489,13 @@ Conclusión
 
 Los condicionales son una parte fundamental de JavaScript que permiten tomar decisiones y controlar el flujo de ejecución de un programa. Comprender la sintaxis, los operadores de comparación y los usos de los condicionales es esencial para escribir código efectivo y lógico en JavaScript.
 
+Fuentes
+===============
+
+- Guías de DevCamp.
+- https://www.freecodecamp.org/espanol/news/javascript-if-else-y-if-then-sentencias-condicionales-en-js/
+- https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks/conditionals
+- https://makeitrealcamp.gitbook.io/javascript-book/condicionales
 
 ******************************
 ¿Qué es un operador ternario?
@@ -534,6 +565,13 @@ Conclusión
 
 Los operadores ternarios en JavaScript son una forma eficiente y concisa de escribir condicionales para tomar decisiones basadas en condiciones simples. Comprender la sintaxis, los ejemplos y los usos de los operadores ternarios es esencial para escribir código efectivo y legible en JavaScript.
 
+Fuentes
+===============
+
+- Guías de DevCamp.
+- https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/Conditional_operator
+- https://lenguajejs.com/fundamentos/estructuras-de-control/operador-ternario/
+- https://desarrolloweb.com/articulos/operador-ternario-javascript
 
 ******************************************************************************************
 ¿Cuál es la diferencia entre una declaración de función y una expresión de función?
@@ -648,6 +686,13 @@ Conclusión
 
 En JavaScript, las declaraciones de función y las expresiones de función son dos formas diferentes de definir funciones. Comprender la diferencia entre ambas es importante para escribir código claro y comprensible. Las declaraciones de función se elevan al principio del contexto de ejecución y pueden ser invocadas antes de su declaración, mientras que las expresiones de función deben ser declaradas antes de su uso.
 
+Fuentes
+===============
+
+- Guías de DevCamp.
+- https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Functions
+- https://www.escuelafrontend.com/declaraciones-de-funciones-y-expresiones-de-funciones
+- https://desarrolloweb.com/articulos/operador-ternario-javascript
 
 *********************************************
 ¿Qué es la palabra clave "this" en JS?
@@ -722,6 +767,14 @@ Conclusión
 ==========
 
 La palabra clave "this" en JavaScript es una herramienta poderosa que permite acceder dinámicamente al contexto de ejecución en el que se está ejecutando el código. Comprender cómo funciona "this" es esencial para escribir código efectivo y evitar errores relacionados con el ámbito y el contexto de ejecución.
+
+Fuentes
+===============
+
+- Guías de DevCamp.
+- https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/this
+- https://www.freecodecamp.org/espanol/news/la-guia-completa-sobre-this-en-javascript/
+- https://www.w3schools.com/js/js_this.asp
 
 
 
