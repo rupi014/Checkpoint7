@@ -663,6 +663,10 @@ La palabra clave "this" en JavaScript es una referencia especial que se refiere 
 
    - **En el contexto global:** Cuando se utiliza fuera de cualquier función, "this" hace referencia al objeto global, que suele ser el objeto `window` en un navegador web o `global` en Node.js.
 
+        .. image:: images/this.png
+          :width: 800
+          :alt: this example
+
    - **Dentro de un método de objeto:** Cuando se utiliza dentro de un método de un objeto, "this" hace referencia al objeto que llama al método.
 
    - **En una función normal:** Cuando se utiliza dentro de una función normal (no un método de objeto), el valor de "this" depende de cómo se llama la función. Si se llama a la función como una función normal, "this" hace referencia al objeto global. Si se llama como método de un objeto, "this" hace referencia al objeto que llama al método.
@@ -678,10 +682,6 @@ La palabra clave "this" en JavaScript es una referencia especial que se refiere 
      .. code-block:: javascript
 
         console.log(this); // Muestra el objeto global (window en un navegador)
-
-.. image:: images/this.png
-  :width: 400
-  :alt: this example
 
    - **Ejemplo 2: Dentro de un método de objeto:**
 
@@ -721,7 +721,7 @@ La palabra clave "this" en JavaScript es una referencia especial que se refiere 
 Conclusión
 ==========
 
-   La palabra clave "this" en JavaScript es una herramienta poderosa que permite acceder dinámicamente al contexto de ejecución en el que se está ejecutando el código. Comprender cómo funciona "this" es esencial para escribir código efectivo y evitar errores relacionados con el ámbito y el contexto de ejecución.
+La palabra clave "this" en JavaScript es una herramienta poderosa que permite acceder dinámicamente al contexto de ejecución en el que se está ejecutando el código. Comprender cómo funciona "this" es esencial para escribir código efectivo y evitar errores relacionados con el ámbito y el contexto de ejecución.
 
 
 
