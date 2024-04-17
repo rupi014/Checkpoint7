@@ -10,7 +10,9 @@ Checkpoint 7
 
 JavaScript es un lenguaje de programación de alto nivel, interpretado y orientado a objetos, utilizado principalmente para crear interactividad en páginas web. Junto con HTML y CSS, forma la tríada fundamental de tecnologías web.
 
-
+.. image:: images/JS.png
+  :width: 500
+  :alt: Alternative text
 
 Historia
 ===============
@@ -647,6 +649,77 @@ Conclusión
 En JavaScript, las declaraciones de función y las expresiones de función son dos formas diferentes de definir funciones. Comprender la diferencia entre ambas es importante para escribir código claro y comprensible. Las declaraciones de función se elevan al principio del contexto de ejecución y pueden ser invocadas antes de su declaración, mientras que las expresiones de función deben ser declaradas antes de su uso.
 
 
-.. image:: images/JS.png
+*********************************************
+¿Qué es la palabra clave "this" en JS?
+*********************************************
+
+La palabra clave "this" en JavaScript es una referencia especial que se refiere al objeto actual en el que se está ejecutando el código. El valor de "this" depende del contexto de ejecución en el que se utiliza y puede variar en función de cómo se llama una función. A continuación se presenta una explicación detallada de la palabra clave "this" en JavaScript:
+
+1. **Contexto de Ejecución:**
+
+   En JavaScript, el valor de "this" está determinado por el contexto de ejecución en el que se encuentra el código en ese momento. El contexto de ejecución puede ser global, el objeto que llama a un método o una función, o puede ser modificado explícitamente mediante métodos como `call()`, `apply()` o `bind()`.
+
+2. **Usos de "this":**
+
+   - **En el contexto global:** Cuando se utiliza fuera de cualquier función, "this" hace referencia al objeto global, que suele ser el objeto `window` en un navegador web o `global` en Node.js.
+
+   - **Dentro de un método de objeto:** Cuando se utiliza dentro de un método de un objeto, "this" hace referencia al objeto que llama al método.
+
+   - **En una función normal:** Cuando se utiliza dentro de una función normal (no un método de objeto), el valor de "this" depende de cómo se llama la función. Si se llama a la función como una función normal, "this" hace referencia al objeto global. Si se llama como método de un objeto, "this" hace referencia al objeto que llama al método.
+
+   - **En funciones de flecha (arrow functions):** En las funciones de flecha introducidas en ECMAScript 6 (ES6), "this" se mantiene unido léxicamente al contexto en el que se definió la función. Por lo tanto, el valor de "this" en una función de flecha se hereda del ámbito circundante en el que se define la función.
+
+3. **Ejemplos de "this":**
+
+   A continuación se presentan algunos ejemplos que ilustran cómo funciona la palabra clave "this" en diferentes contextos:
+
+   - **Ejemplo 1: En el contexto global:**
+
+     .. code-block:: javascript
+
+        console.log(this); // Muestra el objeto global (window en un navegador)
+
+   - **Ejemplo 2: Dentro de un método de objeto:**
+
+     .. code-block:: javascript
+
+        let persona = {
+            nombre: "Juan",
+            saludar: function() {
+                console.log("Hola, mi nombre es " + this.nombre);
+            }
+        };
+        persona.saludar(); // Muestra "Hola, mi nombre es Juan"
+
+   - **Ejemplo 3: En una función normal:**
+
+     .. code-block:: javascript
+
+        function saludar() {
+            console.log("Hola, mi nombre es " + this.nombre);
+        }
+        let objeto = { nombre: "María" };
+        saludar(); // Muestra "Hola, mi nombre es undefined"
+        saludar.call(objeto); // Muestra "Hola, mi nombre es María"
+
+   - **Ejemplo 4: En funciones de flecha (arrow functions):**
+
+     .. code-block:: javascript
+
+        let objeto = {
+            nombre: "Pedro",
+            saludar: () => {
+                console.log("Hola, mi nombre es " + this.nombre);
+            }
+        };
+        objeto.saludar(); // Muestra "Hola, mi nombre es undefined" (this se refiere al contexto global)
+
+Conclusión
+==========
+
+   La palabra clave "this" en JavaScript es una herramienta poderosa que permite acceder dinámicamente al contexto de ejecución en el que se está ejecutando el código. Comprender cómo funciona "this" es esencial para escribir código efectivo y evitar errores relacionados con el ámbito y el contexto de ejecución.
+
+
+
 
 
